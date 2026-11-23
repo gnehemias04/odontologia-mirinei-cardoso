@@ -41,7 +41,7 @@ function Testimonials() {
             Florencia Durso.
           </p>
 
-          {/* Google rating */}
+          {/* Google rating and jnaskndasdkaskd */}
           <div className="mt-8 inline-flex flex-col items-center rounded-2xl border border-slate-100 bg-white px-8 py-5 shadow-sm sm:flex-row sm:gap-5">
             <div className="text-4xl font-bold text-slate-900">5.0</div>
 
