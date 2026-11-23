@@ -8,35 +8,35 @@ function About() {
 
           <img
             src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=1200&q=85"
-            alt="Interior de un consultorio odontológico"
+            alt="Interior de um consultório odontológico"
             className="w-full h-87.5 sm:h-112.5 object-cover rounded-4xl shadow-xl"
           />
 
           <div className="absolute bottom-5 right-5 bg-white rounded-2xl shadow-lg p-5 max-w-50">
             <p className="text-3xl font-bold text-teal-600">5.0 ★</p>
-            <p className="text-sm text-slate-600 mt-1">Valoración en Google</p>
+            <p className="text-sm text-slate-600 mt-1">Avaliação no Google</p>
           </div>
         </div>
 
         {/* Content */}
         <div>
           <span className="text-teal-600 font-semibold text-sm tracking-widest uppercase">
-            Sobre nosotros
+            Sobre nós
           </span>
 
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-slate-800 leading-tight mt-4 mb-6">
-            Cuidamos tu sonrisa con{" "}
-            <span className="text-teal-600">dedicación y compromiso.</span>
+            Cuidamos do seu sorriso com{" "}
+            <span className="text-teal-600">dedicação e compromisso.</span>
           </h2>
 
           <p className="text-slate-600 leading-relaxed mb-5">
-            Creemos que una buena atención odontológica comienza escuchando a
-            cada paciente y comprendiendo sus necesidades.
+            Acreditamos que um bom atendimento odontológico começa com a escuta
+            de cada paciente e a compreensão das suas necessidades.
           </p>
 
           <p className="text-slate-600 leading-relaxed mb-8">
-            Nuestro objetivo es ofrecer una experiencia cercana, profesional y
-            enfocada en el cuidado de tu salud bucal.
+            Nosso objetivo é oferecer uma experiência acolhedora, profissional e
+            focada no cuidado com a sua saúde bucal.
           </p>
 
           {/* Features */}
@@ -47,10 +47,10 @@ function About() {
               </div>
               <div>
                 <h3 className="font-semibold text-slate-800">
-                  Atención personalizada
+                  Atendimento personalizado
                 </h3>
                 <p className="text-sm text-slate-500 mt-1">
-                  Cada paciente es único.
+                  Cada paciente é único.
                 </p>
               </div>
             </div>
@@ -61,10 +61,10 @@ function About() {
               </div>
               <div>
                 <h3 className="font-semibold text-slate-800">
-                  Compromiso profesional
+                  Compromisso profissional
                 </h3>
                 <p className="text-sm text-slate-500 mt-1">
-                  Cuidado y dedicación en cada consulta.
+                  Cuidado e dedicação em cada consulta.
                 </p>
               </div>
             </div>

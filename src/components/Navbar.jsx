@@ -4,11 +4,11 @@ function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   const navLinks = [
-    { name: "Inicio", href: "#inicio" },
-    { name: "Nosotros", href: "#nosotros" },
-    { name: "Tratamientos", href: "#tratamientos" },
-    { name: "Opiniones", href: "#opiniones" },
-    { name: "Ubicación", href: "#ubicacion" },
+    { name: "Início", href: "#inicio" },
+    { name: "Sobre nós", href: "#nosotros" },
+    { name: "Tratamentos", href: "#tratamientos" },
+    { name: "Avaliações", href: "#opiniones" },
+    { name: "Localização", href: "#ubicacion" },
   ];
 
   return (
@@ -17,7 +17,7 @@ function Navbar() {
         {/* Logo */}
         <a href="#inicio" className="flex flex-col leading-tight">
           <span className="text-xl font-bold text-slate-800 tracking-tight">
-            Florencia Durso
+            Mirinei Cardoso
           </span>
           <span className="text-xs tracking-[0.2em] uppercase text-teal-600">
             Odontología
@@ -38,7 +38,7 @@ function Navbar() {
           <a
             href="#contacto"
             className="bg-teal-600 hover:bg-teal-700 text-white px-6 py-3 rounded-full text-sm font-semibold transition-colors">
-            Solicitar turno
+            Agendar consulta
           </a>
         </div>
 
@@ -98,7 +98,7 @@ function Navbar() {
               href="#contacto"
               onClick={() => setIsOpen(false)}
               className="bg-teal-600 text-white text-center py-3 rounded-full font-semibold">
-              Solicitar turno
+              Agendar consulta
             </a>
           </div>
         </div>

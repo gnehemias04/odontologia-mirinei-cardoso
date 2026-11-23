@@ -1,23 +1,24 @@
 const testimonials = [
   {
-    name: "Delia Borba Ramirez",
-    date: "Hace un año",
-    text: "Súper agradecida con la doctora Florencia, por el carisma, amabilidad y buena atención. Siempre pendiente de la evolución de mi hijo. Más que recomendable.",
+    name: "Hanna Glenda",
+    date: "Há 7 meses",
+    text: "Gostaria de deixar registrado meu elogio à Dra. Mirinei pelo excelente atendimento. Fui muito bem atendida, com atenção, cuidado e muito profissionalismo. A forma como explica tudo com calma e transmite segurança faz toda a diferença. Muito obrigada pela dedicação e pelo carinho no atendimento!",
+  },
+
+  {
+    name: "Bianca Monte",
+    date: "Há 8 meses",
+    text: "Dra. Mirinei maravilhosa cm sempre... Técnica precisa, preço justo e simpatia em alta. Recomendo 100%!!!",
   },
   {
-    name: "Belen Alvarez",
-    date: "Hace 2 años",
-    text: "Primer consulta para mi hijo de 4 años y la verdad que tenía más miedo yo q él y la Dra una genia total. Mi hijo ni una queja! La próxima iré con total confianza.",
+    name: "Aline Beloti",
+    date: "Há 9 meses",
+    text: "Ótima profissional ,me senti acolhida uma simpatia de pessoa virei paciente pra sempre .",
   },
   {
-    name: "Camila Lozzia",
-    date: "Hace un año",
-    text: "Excelente atención. Flor es súper amable y profesional, te hace sentir cómoda en todo momento y explica cada paso del tratamiento con mucha paciencia. Se nota que le importa que sus pacientes estén tranquilos y entiendan lo que les hace. La recomiendo 100%!",
-  },
-  {
-    name: "Luciana Maggi",
-    date: "Hace 8 meses",
-    text: "Excelente odonto, muy amorosa y amable! La boca de mi peque quedó de 10, siempre le explicó todo lo que le iba a hacer y fue muy atenta con el 💖 Te queremos Flor, la recomendamos al 💯…",
+    name: "Maria das Graças Silva Carneiro",
+    date: "Há 9 meses",
+    text: "Foi maravilhoso passar com a Dra Mirinei , ela é muito simpática e acolhedora . Já indiquei pra toda família e amigos.",
   },
 ];
 
@@ -28,16 +29,16 @@ function Testimonials() {
         {/* Section heading */}
         <div className="mx-auto mb-14 max-w-2xl text-center">
           <span className="text-sm font-semibold tracking-widest text-teal-700 uppercase">
-            Opiniones de pacientes
+            Depoimentos de pacientes
           </span>
 
           <h2 className="mt-4 text-3xl font-semibold tracking-tight text-slate-900 sm:text-4xl">
-            La confianza de nuestros pacientes es lo más importante
+            A confiança dos nossos pacientes é o mais importante
           </h2>
 
           <p className="mt-5 leading-relaxed text-slate-600">
-            Conocé las experiencias de quienes ya confiaron en la atención de la
-            Dra. Florencia Durso.
+            Conheça as experiências de quem já confiou no atendimento da Dra.
+            Florencia Durso.
           </p>
 
           {/* Google rating */}
@@ -58,9 +59,7 @@ function Testimonials() {
                 ))}
               </div>
 
-              <p className="mt-1 text-sm text-slate-500">
-                Valoración en Google
-              </p>
+              <p className="mt-1 text-sm text-slate-500">Avaliação no Google</p>
             </div>
           </div>
         </div>
@@ -107,7 +106,7 @@ function Testimonials() {
         {/* Google link */}
         <div className="mt-12 text-center">
           <p className="text-sm text-slate-500">
-            Las opiniones reflejan experiencias compartidas por pacientes en
+            As avaliações refletem experiências compartilhadas por pacientes no
             Google.
           </p>
         </div>

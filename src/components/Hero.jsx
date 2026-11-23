@@ -8,18 +8,18 @@ function Hero() {
         <div className="flex flex-col items-start">
           <span className="inline-flex items-center gap-2 bg-teal-50 text-teal-700 px-4 py-2 rounded-full text-xs sm:text-sm font-semibold tracking-wide mb-6">
             <span className="w-2 h-2 rounded-full bg-teal-500"></span>
-            ODONTOLOGÍA INTEGRAL
+            ODONTOLOGIA INTEGRADA
           </span>
 
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-slate-800 leading-tight tracking-tight mb-6">
-            Una sonrisa saludable comienza con una{" "}
-            <span className="text-teal-600">buena atención.</span>
+            Um sorriso saudável começa com um{" "}
+            <span className="text-teal-600">bom atendimento.</span>
           </h1>
 
           <p className="text-base sm:text-lg text-slate-600 leading-relaxed max-w-xl mb-8">
-            Tu salud bucal merece atención profesional y personalizada. Te
-            acompañamos para que cuidar tu sonrisa sea una experiencia cómoda y
-            tranquila.
+            Sua saúde bucal merece atenção profissional e personalizada.
+            Acompanhamos você para que cuidar do seu sorriso seja uma
+            experiência confortável e tranquila.
           </p>
 
           {/* Buttons */}
@@ -27,13 +27,13 @@ function Hero() {
             <a
               href="#contacto"
               className="bg-teal-600 hover:bg-teal-700 text-white px-8 py-4 rounded-full font-semibold text-center transition-all duration-300 shadow-lg shadow-teal-600/20">
-              Solicitar turno
+              Agendar consulta
             </a>
 
             <a
               href="#tratamientos"
               className="border border-slate-300 hover:border-teal-600 hover:text-teal-700 text-slate-700 px-8 py-4 rounded-full font-semibold text-center transition-all duration-300">
-              Nuestros tratamientos
+              Nossos tratamentos
             </a>
           </div>
 
@@ -46,7 +46,7 @@ function Hero() {
             </div>
 
             <p className="text-sm text-slate-600">
-              Atención profesional y personalizada
+              Atendimento profissional e personalizado
             </p>
           </div>
         </div>
@@ -58,7 +58,7 @@ function Hero() {
           <div className="relative rounded-4xl overflow-hidden shadow-2xl shadow-slate-300/40">
             <img
               src="https://images.unsplash.com/photo-1606811971618-4486d14f3f99?auto=format&fit=crop&w=1200&q=85"
-              alt="Consultorio odontológico moderno"
+              alt="Consultório odontológico moderno"
               className="w-full h-87.5 sm:h-112.5 lg:h-137.5 object-cover"
             />
           </div>
@@ -66,10 +66,10 @@ function Hero() {
           {/* Floating information card */}
           <div className="absolute -bottom-6 left-4 sm:left-8 bg-white rounded-2xl shadow-xl p-5 max-w-60">
             <p className="text-sm font-semibold text-slate-800">
-              Tu sonrisa importa
+              Seu sorriso importa
             </p>
             <p className="text-xs text-slate-500 mt-1">
-              Cuidamos cada detalle de tu salud bucal.
+              Cuidamos de cada detalhe da sua saúde bucal.
             </p>
           </div>
         </div>

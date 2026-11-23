@@ -5,15 +5,15 @@ function LocationSection() {
         {/* Location information */}
         <div>
           <span className="text-sm font-semibold tracking-widest text-teal-700 uppercase">
-            Dónde encontrarnos
+            Onde nos encontrar
           </span>
 
           <h2 className="mt-4 text-3xl font-semibold tracking-tight text-slate-900 sm:text-4xl">
-            Estamos cerca para cuidar tu sonrisa
+            Estamos perto para cuidar do seu sorriso
           </h2>
 
           <p className="mt-5 leading-relaxed text-slate-600">
-            Encontrá nuestro consultorio y conocé cómo llegar para tu próxima
+            Encontre nosso consultório e descubra como chegar para sua próxima
             consulta odontológica.
           </p>
 
@@ -42,9 +42,9 @@ function LocationSection() {
               </div>
 
               <div>
-                <h3 className="font-semibold text-slate-900">Ubicación</h3>
+                <h3 className="font-semibold text-slate-900">Localização</h3>
                 <p className="mt-1 text-sm leading-relaxed text-slate-600">
-                  Odontología Florencia Durso
+                  Odontologia Florencia Durso
                 </p>
               </div>
             </div>
@@ -73,10 +73,10 @@ function LocationSection() {
 
               <div>
                 <h3 className="font-semibold text-slate-900">
-                  Horarios de atención
+                  Horários de atendimento
                 </h3>
                 <p className="mt-1 text-sm leading-relaxed text-slate-600">
-                  Consultá los horarios disponibles por WhatsApp.
+                  Consulte os horários disponíveis pelo WhatsApp.
                 </p>
               </div>
             </div>
@@ -88,7 +88,7 @@ function LocationSection() {
             target="_blank"
             rel="noopener noreferrer"
             className="mt-10 inline-flex items-center gap-2 rounded-full bg-teal-700 px-7 py-3.5 text-sm font-semibold text-white transition hover:bg-teal-800">
-            Cómo llegar
+            Como chegar
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -108,8 +108,8 @@ function LocationSection() {
         {/* Google Maps */}
         <div className="overflow-hidden rounded-4xl shadow-lg">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3109.8023414242557!2d-58.38306262065429!3d-34.914417399999984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bd2bf77e97c759%3A0x565a7e5124ea4dbe!2sOdontolog%C3%ADa%20Florencia%20Durso!5e1!3m2!1ses!2sar!4v1795130779150!5m2!1ses!2sar"
-            title="Ubicación de Odontología Florencia Durso en Google Maps"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3475.6613828781187!2d-46.585!3d-23.5833!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5c0e74ffd9f3%3A0x271d702650534bc7!2sR.%20Ibitirama%2C%20166%20-%20Vila%20Prudente%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2003133-000%2C%20Brazil!5e1!3m2!1sen!2sar!4v1795445842415!5m2!1sen!2sar"
+            title="Localização do consultório odontológico no Google Maps"
             width="100%"
             height="450"
             style={{ border: 0 }}

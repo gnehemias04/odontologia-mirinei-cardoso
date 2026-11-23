@@ -1,39 +1,39 @@
 const footerLinks = [
-  { label: "Inicio", href: "#inicio" },
-  { label: "Nosotros", href: "#nosotros" },
-  { label: "Tratamientos", href: "#tratamientos" },
-  { label: "Opiniones", href: "#opiniones" },
-  { label: "Ubicación", href: "#ubicacion" },
-  { label: "Contacto", href: "#contacto" },
+  { label: "Início", href: "#inicio" },
+  { label: "Sobre nós", href: "#nosotros" },
+  { label: "Tratamentos", href: "#tratamientos" },
+  { label: "Avaliações", href: "#opiniones" },
+  { label: "Localização", href: "#ubicacion" },
+  { label: "Contato", href: "#contacto" },
 ];
 
 function Footer() {
   return (
     <footer className="bg-slate-950 px-6 pt-16 pb-8 text-white">
       <div className="mx-auto max-w-7xl">
-        {/* Main footer */}
+        {/* Rodapé principal */}
         <div className="grid gap-12 border-b border-white/10 pb-12 md:grid-cols-2 lg:grid-cols-3">
-          {/* Brand */}
+          {/* Marca */}
           <div>
             <a href="#inicio" className="inline-block">
               <h2 className="text-xl font-semibold tracking-wide">
-                Florencia Durso
+                Mirinei Cardoso
               </h2>
 
               <p className="mt-1 text-xs font-medium tracking-[0.2em] text-teal-400 uppercase">
-                Odontología
+                Odontologia
               </p>
             </a>
 
             <p className="mt-6 max-w-xs text-sm leading-relaxed text-slate-400">
-              Cuidamos tu sonrisa con dedicación, compromiso y atención
-              personalizada.
+              Cuidamos do seu sorriso com dedicação, compromisso e atendimento
+              personalizado.
             </p>
           </div>
 
-          {/* Navigation */}
+          {/* Navegação */}
           <div>
-            <h3 className="font-semibold">Navegación</h3>
+            <h3 className="font-semibold">Navegação</h3>
 
             <ul className="mt-6 grid grid-cols-2 gap-x-6 gap-y-4">
               {footerLinks.map((link) => (
@@ -48,35 +48,35 @@ function Footer() {
             </ul>
           </div>
 
-          {/* Contact */}
+          {/* Contato */}
           <div>
-            <h3 className="font-semibold">Contacto</h3>
+            <h3 className="font-semibold">Contato</h3>
 
             <p className="mt-6 text-sm leading-relaxed text-slate-400">
-              ¿Tenés alguna consulta? Comunicate con nosotros y conocé la
-              disponibilidad de turnos.
+              Tem alguma dúvida? Entre em contato conosco e consulte a
+              disponibilidade de horários.
             </p>
 
             <a
               href="#contacto"
               className="mt-5 inline-flex items-center gap-2 text-sm font-semibold text-teal-400 transition hover:text-teal-300">
-              Solicitar información
+              Solicitar informações
               <span aria-hidden="true">→</span>
             </a>
           </div>
         </div>
 
-        {/* Copyright */}
+        {/* Direitos autorais */}
         <div className="flex flex-col items-center justify-between gap-4 pt-8 text-center sm:flex-row sm:text-left">
           <p className="text-xs text-slate-500">
-            © {new Date().getFullYear()} Odontología Florencia Durso. Todos los
-            derechos reservados.
+            © {new Date().getFullYear()} Odontologia Mirinei Cardoso. Todos os
+            direitos reservados.
           </p>
 
           <a
             href="#inicio"
             className="text-xs text-slate-500 transition hover:text-teal-400">
-            Volver arriba ↑
+            Voltar ao topo ↑
           </a>
         </div>
       </div>

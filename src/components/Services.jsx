@@ -1,9 +1,9 @@
 const services = [
   {
     number: "01",
-    title: "Odontología general",
+    title: "Odontologia geral",
     description:
-      "Atención orientada al cuidado de la salud bucal y al seguimiento de cada paciente.",
+      "Atendimento voltado à saúde bucal e ao acompanhamento de cada paciente.",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -22,9 +22,9 @@ const services = [
   },
   {
     number: "02",
-    title: "Prevención y cuidado",
+    title: "Prevenção e cuidados",
     description:
-      "La importancia de cuidar tu sonrisa mediante controles y buenos hábitos de higiene bucal.",
+      "A importância de cuidar do seu sorriso por meio de consultas regulares e bons hábitos de higiene bucal.",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -44,9 +44,9 @@ const services = [
   },
   {
     number: "03",
-    title: "Atención personalizada",
+    title: "Atendimento personalizado",
     description:
-      "Cada sonrisa es diferente. Una atención enfocada en escuchar y comprender las necesidades de cada paciente.",
+      "Cada sorriso é único. Um atendimento que busca ouvir e compreender as necessidades de cada paciente.",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -72,16 +72,16 @@ function Services() {
         {/* Section heading */}
         <div className="mx-auto mb-14 max-w-2xl text-center">
           <span className="text-sm font-semibold tracking-widest text-teal-700 uppercase">
-            Nuestros servicios
+            Nossos serviços
           </span>
 
           <h2 className="mt-4 text-3xl font-semibold tracking-tight text-slate-900 sm:text-4xl">
-            Cuidamos cada detalle de tu sonrisa
+            Cuidamos de cada detalhe do seu sorriso
           </h2>
 
           <p className="mt-5 leading-relaxed text-slate-600">
-            Una atención cercana y profesional, enfocada en el cuidado de tu
-            salud bucal y tu bienestar.
+            Um atendimento atencioso e profissional, focado no cuidado com a sua
+            saúde bucal e o seu bem-estar.
           </p>
         </div>
 
@@ -112,7 +112,7 @@ function Services() {
               <a
                 href="#contacto"
                 className="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-teal-700 transition hover:gap-3">
-                Consultar
+                Saiba mais
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"

@@ -1,27 +1,27 @@
 const images = [
   {
     src: "https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=1200&q=85",
-    alt: "Interior de un consultorio odontológico",
+    alt: "Interior de um consultório odontológico",
     className: "md:col-span-2 md:row-span-2",
   },
   {
     src: "https://images.unsplash.com/photo-1606811971618-4486d14f3f99?auto=format&fit=crop&w=800&q=85",
-    alt: "Espacio de atención odontológica",
+    alt: "Espaço de atendimento odontológico",
     className: "",
   },
   {
     src: "https://images.unsplash.com/photo-1609840114035-3c981b782dfe?auto=format&fit=crop&w=800&q=85",
-    alt: "Equipamiento odontológico",
+    alt: "Equipamentos odontológicos",
     className: "",
   },
   {
     src: "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?auto=format&fit=crop&w=800&q=85",
-    alt: "Atención en consultorio odontológico",
+    alt: "Atendimento em consultório odontológico",
     className: "",
   },
   {
     src: "https://images.unsplash.com/photo-1606265752439-1f18756aa5fc?auto=format&fit=crop&w=800&q=85",
-    alt: "Ambiente de una clínica dental",
+    alt: "Ambiente de uma clínica odontológica",
     className: "",
   },
 ];
@@ -33,16 +33,16 @@ function Gallery() {
         {/* Section heading */}
         <div className="mx-auto mb-14 max-w-2xl text-center">
           <span className="text-sm font-semibold tracking-widest text-teal-700 uppercase">
-            Nuestro espacio
+            Nosso espaço
           </span>
 
           <h2 className="mt-4 text-3xl font-semibold tracking-tight text-slate-900 sm:text-4xl">
-            Un espacio pensado para tu bienestar
+            Um espaço pensado para o seu bem-estar
           </h2>
 
           <p className="mt-5 leading-relaxed text-slate-600">
-            Conocé nuestro espacio y descubrí un ambiente donde la atención y el
-            cuidado de tu sonrisa son protagonistas.
+            Conheça nosso espaço e descubra um ambiente onde o atendimento e o
+            cuidado com o seu sorriso são prioridades.
           </p>
         </div>
 
@@ -69,7 +69,7 @@ function Gallery() {
           <a
             href="#contacto"
             className="inline-flex items-center justify-center rounded-full bg-teal-700 px-7 py-3.5 text-sm font-semibold text-white transition hover:bg-teal-800">
-            Conocé más sobre nosotros
+            Saiba mais sobre nós
           </a>
         </div>
       </div>

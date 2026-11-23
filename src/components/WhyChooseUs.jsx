@@ -1,9 +1,9 @@
 const reasons = [
   {
     number: "01",
-    title: "Atención personalizada",
+    title: "Atendimento personalizado",
     description:
-      "Cada paciente es único. Buscamos brindar una atención cercana, escuchando sus necesidades y expectativas.",
+      "Cada paciente é único. Buscamos oferecer um atendimento próximo e atencioso, ouvindo suas necessidades e expectativas.",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -22,9 +22,9 @@ const reasons = [
   },
   {
     number: "02",
-    title: "Compromiso con tu salud",
+    title: "Compromisso com a sua saúde",
     description:
-      "Promovemos el cuidado de la salud bucal y la importancia de mantener controles odontológicos.",
+      "Promovemos o cuidado com a saúde bucal e a importância de manter consultas odontológicas regulares.",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -44,9 +44,9 @@ const reasons = [
   },
   {
     number: "03",
-    title: "Un espacio de confianza",
+    title: "Um ambiente de confiança",
     description:
-      "Queremos que cada visita sea una experiencia agradable, con comunicación clara y un trato cordial.",
+      "Queremos que cada visita seja uma experiência agradável, com comunicação clara e atendimento acolhedor.",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -75,14 +75,14 @@ function WhyChooseUs() {
 
           <img
             src="https://images.unsplash.com/photo-1606811841689-23dfddce3e95?auto=format&fit=crop&w=1200&q=85"
-            alt="Atención en un consultorio odontológico"
+            alt="Atendimento em um consultório odontológico"
             className="relative z-10 h-80 w-full rounded-4xl object-cover shadow-lg sm:h-105 lg:h-130"
           />
 
           <div className="absolute -bottom-6 right-4 z-20 rounded-2xl bg-teal-700 px-6 py-5 text-white shadow-lg sm:right-8">
-            <p className="text-2xl font-semibold">Tu sonrisa</p>
+            <p className="text-2xl font-semibold">Seu sorriso</p>
             <p className="mt-1 text-sm text-teal-50">
-              merece atención y cuidado
+              merece atenção e cuidado
             </p>
           </div>
         </div>
@@ -90,16 +90,16 @@ function WhyChooseUs() {
         {/* Content */}
         <div className="pt-6 lg:pt-0">
           <span className="text-sm font-semibold tracking-widest text-teal-700 uppercase">
-            ¿Por qué elegirnos?
+            Por que nos escolher?
           </span>
 
           <h2 className="mt-4 text-3xl font-semibold tracking-tight text-slate-900 sm:text-4xl">
-            Tu salud bucal merece atención y dedicación
+            Sua saúde bucal merece atenção e dedicação
           </h2>
 
           <p className="mt-5 leading-relaxed text-slate-600">
-            Creemos que una buena experiencia odontológica comienza con la
-            confianza, la comunicación y el compromiso con cada paciente.
+            Acreditamos que uma boa experiência odontológica começa com
+            confiança, comunicação e compromisso com cada paciente.
           </p>
 
           <div className="mt-10 space-y-8">
@@ -125,7 +125,7 @@ function WhyChooseUs() {
           <a
             href="#contacto"
             className="mt-10 inline-flex items-center justify-center rounded-full bg-teal-700 px-7 py-3.5 text-sm font-semibold text-white transition hover:bg-teal-800">
-            Quiero hacer una consulta
+            Quero tirar minhas dúvidas
           </a>
         </div>
       </div>
